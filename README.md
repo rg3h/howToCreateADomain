@@ -24,7 +24,7 @@
      This can be used in conjunction with <a href="https://rg3h.github.io/howToCreateAWebSite">how to create a website.</a>
     </sup>
     <br><br>
-    <a href="https://rg3h.github.io/gt/index.html">
+    <a href="https://rg3h.github.io/howToCreateADomainName/index.html">
       <img align=right src="./public/assets/images/learnMoreButton.png"/>
     </a>
   </td></tr>
