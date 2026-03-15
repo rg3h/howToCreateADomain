@@ -1,0 +1,168 @@
+<!DOCTYPE html> <!-- index.html -->
+<html lang="en">
+<head>
+<!--____________________________
+ / \                            \
+|   |                           |
+ \_ |                           |
+    |       How to create       |
+    |       a domain name       |
+    |       on cloudflare       |
+    |                           |
+    |  _________________________|__
+    |  \                           \
+    |  /                           /
+    \_/__________________________ /
+-->
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1"/>
+  <title>howToCreateADomain</title>
+  <meta name="description"                  content="how to create a domain on cloudflare"/>
+  <meta name="mobile-web-app-capable"       content="yes" />
+  <meta name="apple-mobile-web-app-capable" content="yes" />
+  <meta name="msapplication-tap-highlight"  content="no"  />
+  <meta name="description"                  content="how to create a domain on cloudflare"/>
+  <meta name="theme-color"                  content="#EFF4FF"/>
+  <meta property="og:title"                 content="howToCreateADomain"/>
+  <meta property="og:description"           content=""how to create a domain on cloudflare"/>
+  <meta property="og:image"                 content="./assets/images/logo.png"/>
+  <meta property="og:url"                   content="www.howToCreateADomain.com"/>
+
+  <link rel="apple-touch-icon" href="./assets/images/logo.png"/>
+  <link rel="icon"             href="./assets/images/logo.png"/>
+  <link rel="stylesheet"       href="./assets/fonts/monaSans/monaSans.css"/>
+  <link rel="stylesheet"       href="./modules/default/reset.css"/>
+  <link rel="stylesheet"       href="./modules/color/color.css"/>
+  <link rel="stylesheet"       href="./modules/default/default.css"/>
+  <link rel="stylesheet"       href="./index.css"/>
+  <script type="module"        src="./modules/default/main.js"></script>
+</head>
+
+<body>
+  <div class="middle">
+  <div class="titleContainer">
+    <div class="titleLeft">
+      <img class="titleImg" src="./assets/images/logo.png" alt="logo" />
+    </div>
+    <div class="titleMiddle">
+      <div class="titleText">how to create a domain on cloudflare</div>
+    </div>
+    <div class="titleRight">
+      <div class="titleDate"></div>
+    </div>
+  </div> <!-- titleContainer -->
+
+  <div class=whiteBox>
+    Note: the screenshots were done on 15 March 2026 and go out
+    of date, but the steps should be about the same.
+  </div>
+  <br>
+
+  <ol>
+    <li>create an account on
+      <a href="www.cloudflare.com" class=emp>cloudflare</a>
+    </li>
+
+    <li>On the right sidebar click
+      <div class=emp>Domain registration</div>
+      then <div class=emp>Register domains</div>
+      <div>
+        <a class="noA" href="./assets/images/01purchaseDomainName.jpg">
+          <img class=aImg src="./assets/images/01purchaseDomainName.jpg"/>
+        </a>
+      </div>
+    </li>
+    <li>search for a new domain name and click the
+      <div class=emp>Purchase button</div>
+    </li>
+    <li>if it asks for a plan, I pick the
+      <div class=emp>Free plan</div> at the bottom
+      <div>
+        <a class="noA" href="./assets/images/02freePlan.jpg">
+          <img class=aImg src="./assets/images/02freePlan.jpg"/>
+        </a>
+      </div>
+    </li>
+
+    <li>fill out the registration information and click the purchase
+      button at the bottom
+      <div>
+        <a class="noA" href="./assets/images/03completeRegistration.jpg">
+          <img class=aImg src="./assets/images/03completeRegistration.jpg"/>
+        </a>
+      </div>
+      <div>
+        <a class="noA" href="./assets/images/03aCompletePurchase.jpg">
+          <img class=aImg src="./assets/images/03aCompletePurchase.jpg"/>
+        </a>
+      </div>
+    </li>
+  </ol>
+  <br>
+  You have a domain name, congrats!
+  <br><br><br>
+
+  But you may want to do the following too:
+  <ul>
+    <li>I do <b>not</b> click on the <div class=emp>Prevent bots</div>
+    button as I suspect it adds an annoying cloudflare "are you a
+    human" checkbox to your site. Not sure and you might want it.
+      <div>
+        <a class="noA" href="./assets/images/04preventBotsButton.jpg">
+          <img class=aImg src="./assets/images/04preventBotsButton.jpg"/>
+        </a>
+      </div>
+    </li>
+
+    <li>click on the <div class=emp>configuration tab</div></li>
+    <li>enable <div class=emp>DNSSEC</div>
+      <div>
+        <a class="noA" href="./assets/images/05manageDomains.jpg">
+          <img class=aImg src="./assets/images/05manageDomains.jpg"/>
+        </a>
+      </div>
+    </li>
+    <li>on the right sidebar click <div class=emp>Domains</div>,
+        then find your new domain from the list and click the three
+        dot menu and select <div class=emp>Configure DNS</div>
+      <div>
+        <a class="noA" href="./assets/images/06domainManagement.jpg">
+          <img class=aImg src="./assets/images/06domainManagement.jpg"/>
+        </a>
+      </div>
+    </li>
+
+    <li>click on the link <div class=emp>"set up restrictive SPF..."</div>
+      to prevent email spoofing
+      <div>
+        <a class="noA" href="./assets/images/07preventEmailSpoofing.jpg">
+          <img class=aImg src="./assets/images/07preventEmailSpoofing.jpg"/>
+        </a>
+      </div>
+      </li>
+    <li>on the right sidebar click on <div class=emp>manage domains</div>
+      and <div class=emp>your new domain</div>
+    </li>
+    <li>click on the <div class=emp>Submit</div> button to add the records</li>
+    <li>on the right, click on the <div class=emp>Back to Domains</div>
+  </ul>
+
+  You can view and manage your DNS records by...
+  <ul>
+    <li>on the right sidebar click on <div class=emp>Domains</div></li>
+    <li>click on <div class=emp>your new domain</div>
+      <br>this overview page has several links to explore
+    </li>
+    <li>to see your DNS recods click on the link that says
+      <div class=emp>Go to DNS</div></li>
+  </ul>
+  <br>
+
+  That should be a good start. I have a page on
+  <a href="medley.place/webServers/howToCreateAWebSite/index.html">
+    how to create a website</a> that can use this new domain name.
+  <br><br>
+
+  </div> <!-- middle -->
+</body>
+</html>
