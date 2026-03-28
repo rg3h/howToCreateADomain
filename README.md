@@ -21,7 +21,7 @@
  <tr><td align=left>
     <sup>
       Steps and screenshots to create a domain name on Cloudflare.<br>
-     This can be used in conjunction with <a href="https://rg3h.github.io/howToCreateAWebSite">how to create a website.</a>
+      You can create a free website by following <a href="https://rg3h.github.io/howToCreateAWebsite">how to create a website.</a>
     </sup>
     <br><br>
     <a href="https://rg3h.github.io/howToCreateADomain/">
